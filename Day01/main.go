@@ -166,6 +166,16 @@ func array_learn() {
 	}
 }
 
+//  slices in go
+func slice_go() {
+	arr := [5]int{1, 2, 3, 4, 5}
+	sl := arr[1:]
+	fmt.Println(sl)
+	// so basically learning slices we can manipulate the array what we define
+	sl1 := arr[:2]
+	fmt.Println(sl1)
+}
+
 func main() {
 
 	print_values()
@@ -177,4 +187,5 @@ func main() {
 	loops()
 	about_string()
 	array_learn()
+	slice_go()
 }
