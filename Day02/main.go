@@ -70,6 +70,11 @@ type Person struct {
 	designation string
 }
 
+// basically we can use struct to pass as parameter
+func get_struct(person_struct Person) Person {
+	return person_struct
+}
+
 func main() {
 	map_learn()
 
@@ -96,4 +101,8 @@ func main() {
 
 	// access values by key name in strut
 	fmt.Println(animal1.name)
+
+	// pass the Person structu as paramater
+	person2 := get_struct(person1)
+	fmt.Println(person2)
 }
