@@ -1,0 +1,6 @@
+server:
+  host: "localhost"
+  port: 8080
+  protocol: "http"
+  timeout: 30
+  enabled: true

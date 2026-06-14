@@ -1,0 +1,3 @@
+Server is running on {{.Host}}:{{.Port}} using {{.Protocol}}
+Timeout: {{.Timeout}} seconds
+Enabled: {{.Enabled}}
