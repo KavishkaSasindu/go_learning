@@ -1,0 +1,7 @@
+server:
+  name: my-app
+  port: 8080
+
+image:
+  repository: nginx
+  tag: latest

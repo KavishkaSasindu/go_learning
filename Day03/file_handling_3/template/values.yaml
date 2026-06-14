@@ -1,0 +1,7 @@
+server:
+  name: {{ .Server.Name }}
+  port: {{ .Server.Port }}
+
+image:
+  repository: {{ .Image.Repository }}
+  tag: {{ .Image.Tag }}
